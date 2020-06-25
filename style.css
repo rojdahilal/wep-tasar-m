@@ -1,0 +1,692 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+font-family: 'Merriweather', serif;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+*{
+margin:0;
+padding:0;
+}
+body{
+display:flex;
+font-family:Verdana;
+}
+.title
+{
+	width: 100%;
+	background: snow;
+}
+.title .profile
+{
+	position: relative;
+	color: white;
+	float: right;
+	padding: 20px;
+	word-spacing: 5px;
+	font-size: 14px;
+
+}
+.title .profile .sayi
+{
+	background: green;
+	border-radius: 5px;
+	font-size: 12px;
+	position: relative;
+	right: 11px;
+	bottom:10px;
+}
+.logo
+{
+	width: 100%;
+	height: 60px;
+	background: #2f3c48;
+	align-items:center;
+
+   
+
+}
+
+.logo .fa-bars
+{
+	color: white;
+	margin-top:20px;
+	margin-left: 5px;
+	
+	
+}
+.logo  #logo
+{
+  color: white;
+
+ 
+font-family: 'Lexend Deca';
+font-size: 26px;
+font-weight: bold;
+padding-left: 10px;
+letter-spacing: -5PX;
+}
+.logo  #text
+{
+	color: white;
+	padding-left: 24px;
+    font-size: 22px; 
+  }
+
+.sidebar
+{
+	width: 270px;px;
+	height: 1000px;
+	background:#3f5161;
+	float: left;
+    color: white;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.sidebar .app .fa-clone
+{
+	color: white;
+	margin-right:10px;
+}
+.sidebar .app
+{
+	color: white;
+	padding-top: 10px;
+	 padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+     border: 1px solid white;
+	border-style: dotted;
+	  justify-content:space-between;
+
+}
+.sidebar .services
+{
+
+	
+	padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+	box-sizing: border-box;
+	border-bottom: 1px inset #72777a;
+	 justify-content:space-between;
+
+	
+
+}
+.sidebar  .box
+{
+	padding-top: 10px;
+	 padding-bottom: 12px;
+     padding-left: 35px;
+     font-size: 14px;
+     box-sizing: border-box;
+
+	
+}
+.sidebar  .box:hover
+{
+	background: #496b8a;
+}
+.sidebar .fa-chevron-down
+{
+	float: right;
+	margin-right: 5px;
+}
+.sidebar  .hana
+{
+	padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+	box-sizing: border-box;
+	border-bottom: 1px inset #72777a;
+
+}
+.sidebar .hana .fa-chevron-right
+{
+	float: right;
+	margin-right: 5px;
+}
+.sidebar  .portal
+{
+	 padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+	 box-sizing: border-box;
+	 border-bottom: 1px inset #72777a;
+}
+.sidebar  .rout
+{
+	padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+	 box-sizing: border-box;
+	 border-bottom: 1px inset #72777a;
+
+}
+.sidebar  .event
+{
+	padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+	 box-sizing: border-box;
+	 border-bottom: 1px inset #72777a;
+
+}
+.sidebar  .group
+{
+	padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+	 box-sizing: border-box;
+	 border-bottom: 1px inset #72777a;
+
+}
+.sidebar  .members
+{
+	padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+	 box-sizing: border-box;
+	 border-bottom: 1px inset #72777a;
+
+}
+.sidebar .empty
+{
+	padding-top: 190px;
+     padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+	 box-sizing: border-box;
+	 
+}
+.sidebar .use
+{
+	padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+	 box-sizing: border-box;
+	 border-top: 1px solid #00c5ee;
+
+}
+.sidebar .legal
+{
+	padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 5px;
+     font-size: 14px;
+	 box-sizing: border-box;
+	  border-top: 1px inset #72777a;
+
+}
+.content1
+{
+ width: 100%;
+height:170px;
+background: 
+#fff;
+
+
+}
+.content1 .home
+{
+	display: flex;
+
+}
+.content1 .home .fa-home
+{
+	color: #2ca4d9;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.content1 .home span
+{
+	color: #2ca4d9;
+	margin-top: 10px;
+	
+	font-size: 12px;
+}
+.content1 #bol
+{
+	font-size: 18px;
+	color: silver;
+}
+.content1 .home .fa-globe
+{
+	color: #2ca4d9;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.content1 .home .fa-chevron-down
+{
+	color: #2ca4d9;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.content1 .fa-chart-bar
+{
+	color: #2ca4d9;
+	font-size: 26px;
+	float: left;
+	height: 40px;
+	padding: 10px;
+}
+.content1 .home .fa-address-card
+{
+	color: #2ca4d9;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.content1 .home .fa-calendar
+{
+	color: #2ca4d9;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.content1 .home .fa-bezier-curve
+{
+	color: #2ca4d9;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+	
+}
+.content1 .fa-puzzle-piece
+{
+	margin-left: 15px;
+}
+.content #space
+{
+	margin: 20px;
+	background: white;
+
+}
+
+.content  .spacer 
+{
+	color: #4b4b4b;
+	font-size: 18px;
+	margin-top: 30px;
+	width: 100%;
+	height: 30px;
+    background: white;
+	
+}
+.content1 .fa-question-circle
+{
+color: #4b4b4b;
+float: right;
+margin-right: 20px;
+font-size: 14px;
+}
+.content1 .all
+{
+	background: white;
+	width:100%;
+
+}
+.content1 span
+{
+	background: white;
+}
+.content .con
+{
+	background: whitesmoke;
+}
+.content1 .all #all
+{
+	color: gray;
+	padding-left: 15px;
+	font-size: 14px;
+	background: white;
+
+}
+.content1 input
+{
+
+	padding: 10px;
+  font-size: 12px;
+  border: 1px solid silver;
+  float: right;
+  width: 230px;
+  background: #fff;
+  margin-right: 20px;
+  height: 6px;
+  font-style: italic;
+}
+.content
+{
+	width: 100%;
+	background:#f7f5f5;
+
+}
+.content .box
+{
+	float: left;
+	width: 280px;
+	height: 150px;
+	 border: 1px solid silver;
+	 margin-left: 15px;
+	 margin-top: 40px;
+	 position: relative;
+	 background: white;
+	 padding: 12px;
+
+}
+.content .ara
+{
+	padding-top: 30px;
+	margin-top: 10px;
+}
+.content .box .fa-puzzle-piece
+{
+	margin:0px 0px 0px 0px;
+	color: #2ca4d9;
+	box-sizing: border-box;
+
+
+}
+.content .box2 .fa-puzzle-piece
+{
+	margin:0px 0px 0px 0px;
+	color: #2ca4d9;
+	box-sizing: border-box;
+
+
+}
+
+.content .box3 .box1 .fa-puzzle-piece
+{
+	margin:0px 0px 0px 0px;
+	color: #2ca4d9;
+	box-sizing: border-box;
+
+
+}
+.content .box3 .box1 .puzzle .fa-puzzle-piece
+{
+	margin:0px 0px 0px 0px;
+	color: black;
+	box-sizing: border-box;
+
+
+}
+.content .box2 .box1 .puzzle .fa-puzzle-piece
+{
+	margin:0px 0px 0px 0px;
+	color: black;
+	box-sizing: border-box;
+
+
+}
+.content .box .fa-globe
+{
+	margin:15px 10px 0px 35px;
+	color: #2ca4d9;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+.content .box2 .fa-user
+{
+	margin:0px 10px 0px 10px;
+	color:#2ca4d9;
+	box-sizing: border-box;
+	font-size: 30px;
+	float: left;
+	height: 50px;
+}
+.content .box3 .fa-toggle-on
+{
+	margin:0px 10px 0px 10px;
+	color:#2ca4d9;
+	box-sizing: border-box;
+	font-size: 30px;
+	float: left;
+	height: 50px;
+}
+.content .box .fa-file
+{
+	margin:0px 10px 0px 10px;
+	color:#2ca4d9;
+	box-sizing: border-box;
+	font-size: 30px;
+	float: left;
+	height: 50px;
+}
+.content .box2 .box1 .puzzle
+{
+	margin:10px 10px 0px 10px;
+	color:black;
+	box-sizing: border-box;
+	font-size: 30px;
+	float: left;
+	height: 50px;
+}
+.content .box3 .box1 .puzzle
+{
+	margin:10px 10px 0px 10px;
+	color:black;
+	box-sizing: border-box;
+	font-size: 30px;
+	float: left;
+	height: 50px;
+}
+.content .box .fa-arrows-alt
+{
+	margin:5px 0px 0px 25px;
+	color: gray;
+	box-sizing: border-box;
+	font-size: 26px;
+	position: relative;
+}
+.content .box span
+{
+	font-size: 14px;
+	color: #2ca4d9;
+	float: center;
+	box-sizing: border-box;
+	position: relative;
+	align-items: center;
+
+}
+.content .box2 span
+{
+	font-size: 14px;
+	color: #2ca4d9;
+	float: center;
+	box-sizing: border-box;
+	position: relative;
+	align-items: center;
+
+}
+.content .box3 span
+{
+	font-size: 14px;
+	color: #2ca4d9;
+	float: center;
+	box-sizing: border-box;
+	position: relative;
+	align-items: center;
+
+}
+
+.content .box .ikon
+{
+	float: left;
+
+}
+.content .box #text
+{
+	margin: 12px;
+	box-sizing: border-box;
+	color: gray;
+	font-size: 12px;
+	font-style: bold;
+	
+}
+.content .box2 #text
+{
+	margin: 12px;
+	box-sizing: border-box;
+	color: gray;
+	font-size: 12px;
+	font-style: bold;
+	
+}
+.content .box3 #text
+{
+	margin: 12px;
+	box-sizing: border-box;
+	color: gray;
+	font-size: 12px;
+	font-style: bold;
+	
+}
+.content .box #not
+{
+	color: black;
+	position: relative;
+	left: 4px;
+	box-sizing: border-box;
+	width: 1px;
+	height: 30px;
+	font-size: 12px;
+	top: 10px;
+}
+.content .box2 #not
+{
+	color: black;
+	position: relative;
+	left: 4px;
+	box-sizing: border-box;
+	width: 1px;
+	height: 30px;
+	font-size: 12px;
+	top: 10px;
+}
+.content .box3 #not
+{
+	color: black;
+	position: relative;
+	left: 4px;
+	box-sizing: border-box;
+	width: 1px;
+	height: 30px;
+	font-size: 12px;
+	top: 10px;
+}
+.content .box #not1
+{
+	color: black;
+	position: relative;
+	left: 4px;
+	box-sizing: border-box;
+	width: 1px;
+	height: 20px;
+	font-size: 12px;
+	
+
+}
+.content .box2 #not1
+{
+	color: black;
+	position: relative;
+	left: 4px;
+	box-sizing: border-box;
+	width: 1px;
+	height: 20px;
+	font-size: 12px;
+	
+
+}
+.content .box3 #not1
+{
+	color: black;
+	position: relative;
+	left: 4px;
+	box-sizing: border-box;
+	width: 1px;
+	height: 20px;
+	font-size: 12px;
+	
+
+}
+.content .box2 .box1
+{
+	
+
+	 	float: left;
+	width: 280px;
+	height: 150px;
+	 border: 1px solid silver;
+	 margin-left: 15px;
+	 margin-top: 10px;
+	 position: relative;
+	 background: white;
+	 padding: 12px;
+}
+.content .box3 .box1
+{
+	  	float: left;
+	width: 280px;
+	height: 150px;
+	 border: 1px solid silver;
+	 margin-left: 15px;
+	 margin-top: 10px;
+	 position: relative;
+	 background: white;
+	 padding: 12px;
+}
